@@ -1,0 +1,9 @@
+User-agent: *
+
+Disallow: /uploaded_files/
+Disallow: /static/
+Disallow: /admin/
+Disallow: /includes/
+
+
+Disallow: ??FLAG-CNS389-MAYBE??
