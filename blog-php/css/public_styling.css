@@ -5,6 +5,7 @@
 
 html { height: 100%; box-sizing: border-box; }
 body {
+  background: #F5F4EF;
   position: relative;
   margin: 0;
   padding-bottom: 6rem;
@@ -79,6 +80,11 @@ form input:focus {
 	color: #B9E6F2;
     background-color: #334F5C;
 }
+.navbar input[type=text] {
+	float: right;
+	margin-top: 7%;
+	text-align: center;
+}
 
 /* LOGO */
 .navbar .logo_div {
@@ -92,6 +98,25 @@ form input:focus {
 	letter-spacing: 5px;
 	font-weight: 100;
 	font-family: 'Tangerine', cursive;
+}
+
+/* SEARCH BAR */
+div.search {
+	position: right;
+	margin-left: 75%;
+}
+div.search input[type=text] {
+	text-align: center;
+}
+
+
+/* HELLO BAR */
+div.hello {
+	position: right;
+	margin-left: center;
+}
+div.hello input[type=text] {
+	text-align: center;
 }
 
 /* FOOTER */
@@ -335,4 +360,24 @@ form input:focus {
 .logged_in_info {
 	text-align: right; 
 	padding: 10px;
+}
+
+/********************
+***COMMENT
+***SECTION
+********************/
+
+
+.commentheader {
+	text-align: center;
+}
+
+#content h3 {
+	text-align: center;
+	font-size: 10mm;
+}
+
+.commentheader h2 {
+	text-align: center;
+	font-size: 7mm;
 }
