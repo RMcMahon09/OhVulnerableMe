@@ -8,6 +8,7 @@
 ?>
 <?php include('includes/head_section.php'); ?>
 <title> <?php echo $post['title'] ?> Oh Vulnerable Me! | Ping</title>
+<link rel="stylesheet" href="/blog-php/static/css/main.css" type="text/css" />
 </head>
 
 	<body>

@@ -8,6 +8,8 @@
 
 <?php require_once( ROOT_PATH . '/includes/head_section.php') ?>
 	<title>Oh Vulnerable Me! | Home </title>
+
+<script type="text/javascript" src="/blog-php/static/js/hello.js"></script>
 </head>
 <body>
 	<!-- container - wraps whole page -->
@@ -21,6 +23,32 @@
 		<!-- // banner -->
 
 		<!-- Page content -->
+	<!--	<div class="search">
+                        <form action="/blog-php/includes/searchbar.php" method="GET">
+                                <input type="text" name="query" placeholder="Enter Search.." autocomplete="off" />
+                                <input type="submit" value="Search" />
+                        </form>
+		</div>
+		<div class="hello">
+			<?php
+
+			if(!array_key_exists ("name", $_GET) || $_GET['name'] == NULL || $_GET['name'] == '') {
+
+        			$isempty = true;
+
+			} else {
+
+        		echo '<pre>';
+        		echo 'Hello ' . $_GET['name'];
+        		echo '</pre>';
+			}
+
+			?>
+			<form name="xss" action=# method="GET">
+				<input type="text" name="query" placeholder="What's Your Name?" autocomplete="off" />
+				<input type="submit" value="Hello!" />
+			</form>
+		</div> -->
 		<div class="content">
 			<h2 class="content-title">Recent Articles</h2>
 			<hr>
