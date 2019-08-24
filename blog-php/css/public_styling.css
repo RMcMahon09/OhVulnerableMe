@@ -13,6 +13,9 @@ body {
 }
 /* HEADINGS DEFAULT */
 h1, h2, h3, h4, h5, h6 { color: #444; font-family: 'Averia Serif Libre', cursive; }
+h1 {
+	font-size: 5mm;
+}
 a { text-decoration: none; }
 ul, ol { margin-left: 40px; }
 hr { margin: 10px 0px; opacity: .25; }
