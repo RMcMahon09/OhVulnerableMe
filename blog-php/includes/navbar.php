@@ -1,6 +1,6 @@
 <div class="navbar">
 	<div class="logo_div">
-		<a href="index.php"><h1>Oh Vulnerable Me!</h1></a>
+		<a href="/blog-php/index.php"><h1>Oh Vulnerable Me!</h1></a>
 	</div>
 	<ul>
 	  <li><a class="active" href="index.php">Home</a></li>
