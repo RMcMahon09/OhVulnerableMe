@@ -34,6 +34,7 @@
     </div>
     <input type="submit" name="uploadBtn" value="Upload" />
   </form>
+  </div>
 </body>
 
 <!-- // content -->
