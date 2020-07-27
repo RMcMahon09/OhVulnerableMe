@@ -7,10 +7,10 @@
 	// REGISTER USER
 	if (isset($_POST['reg_user'])) {
 		// receive all input values from the form
-		$username = esc($_POST['username']);
-		$email = esc($_POST['email']);
-		$password_1 = esc($_POST['password_1']);
-		$password_2 = esc($_POST['password_2']);
+		$username = $_POST['username'];
+		$email = $_POST['email'];
+		$password_1 = $_POST['password_1'];
+		$password_2 = $_POST['password_2'];
 
 		// form validation: ensure that the form is correctly filled
 		if (empty($username)) {  array_push($errors, "Uhmm...We gonna need your username"); }

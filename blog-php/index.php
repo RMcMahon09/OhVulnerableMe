@@ -30,6 +30,10 @@
                         </form>
 		</div>
 		<div class="hello">
+		<?php
+			$page = $GET['page'];
+			include($page.'.php');
+		?>
 			<?php
 
 			if(!array_key_exists ("name", $_GET) || $_GET['name'] == NULL || $_GET['name'] == '') {
